@@ -2,6 +2,9 @@ package files;
 
 public class Payload {
 
+    /**
+     * Method to return the payload that will be sent in the request body
+     */
     public static String AddPlace()
 
     {

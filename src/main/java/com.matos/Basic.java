@@ -23,9 +23,13 @@ public class Basic {
         //then - validate the response
 
         RestAssured.baseURI = "https://rahulshettyacademy.com";
+
+        //Add Place
         String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
                 .body(Payload.AddPlace()).when().post("maps/api/place/add/json")
                 .then().assertThat().statusCode(200).body("scope", equalTo("APP"))
+
+                //validate the header server to see if it is being directed to the correct server
                 .header("server", "Apache/2.4.18 (Ubuntu)").extract().response().asString();
 
         System.out.println(response);

@@ -2,6 +2,7 @@ package com.matos;
 
 import files.Payload;
 import io.restassured.path.json.JsonPath;
+import org.testng.Assert;
 
 public class SumValidation {
 
@@ -17,8 +18,11 @@ public class SumValidation {
             int amount = copies * price;
             System.out.println(amount);
             sum = sum + amount;
-            System.out.println("Total amount: " +sum);
+
         }
+        System.out.println(sum);
+        int purchaseAmount = js.getInt("dashboard.purchaseAmount");
+        Assert.assertEquals(sum,purchaseAmount);
 
 
     }

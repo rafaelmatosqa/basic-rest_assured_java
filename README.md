@@ -26,7 +26,7 @@ URL: https://rahulshettyacademy.com
 - `Funcionalidade 3` `Buscar lugar por um id`: O sistema possui funcionalidade de pesquisar um lugar pelo id.
 
 ##Como executar os testes e gerar o report.
-Para executar os testes,basta executar a classe Basic dentro do pacote com.matos
+Comando para executar todos os testes: mvn clean test.
 
 ## 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/rafaelmatosqa/basic-rest_assured_java/tree/main/src/).

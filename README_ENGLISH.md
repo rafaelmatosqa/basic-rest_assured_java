@@ -26,7 +26,7 @@ URL: https://rahulshettyacademy.com
 - `Feature 3` `Search place by an id`: The system has functionality to search a place by id.
 
 ##How to run the tests and generate the report.
-To run the tests, just run the Basic class inside the com.matos package
+Command to run all tests: mvn clean test.
 
 ## 📁 Project access
 You can access the project files by clicking [here](https://github.com/rafaelmatosqa/basic-rest_assured_java/tree/main/src/).

@@ -12,7 +12,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class Basic {
 
-    public static void main(String[] args) {
+public void flowE2E(){
 
         /**
          * Validate if Add Place API is working as expected

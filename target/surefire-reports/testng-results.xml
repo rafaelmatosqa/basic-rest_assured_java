@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestRun" duration-ms="13960" started-at="2022-01-11T11:50:05 GFT" finished-at="2022-01-11T11:50:19 GFT">
+  <suite name="TestRun" duration-ms="17471" started-at="2022-01-12T11:53:12 GFT" finished-at="2022-01-12T11:53:30 GFT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="13960" started-at="2022-01-11T11:50:05 GFT" finished-at="2022-01-11T11:50:19 GFT">
+    <test name="Command line test" duration-ms="17471" started-at="2022-01-12T11:53:12 GFT" finished-at="2022-01-12T11:53:30 GFT">
       <class name="TestRun">
-        <test-method status="PASS" signature="runAllTests()[pri:0, instance:TestRun@20322d26]" name="runAllTests" duration-ms="13904" started-at="2022-01-11T11:50:05 GFT" finished-at="2022-01-11T11:50:19 GFT">
+        <test-method status="PASS" signature="runAllTests()[pri:0, instance:TestRun@20322d26]" name="runAllTests" duration-ms="17422" started-at="2022-01-12T11:53:12 GFT" finished-at="2022-01-12T11:53:30 GFT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runAllTests -->

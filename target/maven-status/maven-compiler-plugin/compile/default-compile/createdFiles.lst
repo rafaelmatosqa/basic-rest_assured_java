@@ -1,5 +1,6 @@
 com\matos\SumValidation.class
 files\Payload.class
+com\matos\DynamicJson.class
 com\matos\Basic.class
 com\matos\ComplexJsonParse.class
 files\ReUsableMethods.class

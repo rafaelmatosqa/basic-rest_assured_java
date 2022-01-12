@@ -24,6 +24,7 @@ URL: https://rahulshettyacademy.com
 - `Funcionalidade 1` `Cadastro de um lugar`: O sistema possui funcionalidade de cadastrar lugares.
 - `Funcionalidade 2` `Atualização de um lugar cadastrado`: O sistema possui funcionalidade de atualizar dados de um lugar cadastrado.
 - `Funcionalidade 3` `Buscar lugar por um id`: O sistema possui funcionalidade de pesquisar um lugar pelo id.
+- `Funcionalidade 4` `Adicionar Book`: O sistema possui funcionalidade de adicionar book.
 
 ##Como executar os testes e gerar o report.
 Comando para executar todos os testes: mvn clean test.
